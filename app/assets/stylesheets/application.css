@@ -13,3 +13,44 @@
  *= require_tree .
  *= require_self
  */
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin: 10px;
+  padding: 0px;
+  box-shadow: rgba(0, 0, 0, 0.105) 10px 10px 10px;
+  height: 500px;
+}
+
+.photo {
+  background-image: url('https://www.amsterdam.nl/publish/pages/963723/940x415_nieuwbouw_houtbouw-centrumeiland_si-096.jpg');
+  background-position: center;
+  height: 130px;
+}
+
+.card-info-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgba(128, 128, 128, 0.144);
+  height: 300px;
+}
+
+.card-info-action {
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  height: 80px;
+}
+
+.additional-info p {
+  margin: 0px;
+  padding: 0px;
+}
